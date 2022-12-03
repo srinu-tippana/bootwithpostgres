@@ -1,0 +1,8 @@
+#url
+spring.datasource.url=jdbc:postgresql://localhost:5432/mydb
+
+
+#username
+
+spring.datasource.username=
+

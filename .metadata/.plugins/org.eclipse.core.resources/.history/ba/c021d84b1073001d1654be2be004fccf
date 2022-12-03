@@ -1,0 +1,15 @@
+package com.postgres;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BootwithpostgresApplication {
+
+	public static void main(String[] args) implements CommandLineRunner{
+		SpringApplication.run(BootwithpostgresApplication.class, args);
+	}
+	
+	@Override
+	
+
+}

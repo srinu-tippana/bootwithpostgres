@@ -1,0 +1,6 @@
+package com.postgres.dao;
+
+@Repository
+public class StudentDao {
+
+}
