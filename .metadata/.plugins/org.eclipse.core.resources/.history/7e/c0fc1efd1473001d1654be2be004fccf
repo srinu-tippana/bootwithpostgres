@@ -44,7 +44,7 @@ public class StudentDao {
 		{
 			String query="delete from student where name='Srinu'";
 			
-            int update = this.jdbcTemplate.update(query);
+            int update = this.jdbcTemplate.update(q);
 			
 			System.out.println(update);
 		}

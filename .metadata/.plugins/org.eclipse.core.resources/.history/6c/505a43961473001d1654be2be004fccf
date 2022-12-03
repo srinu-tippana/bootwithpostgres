@@ -23,9 +23,6 @@ public class BootwithpostgresApplication implements CommandLineRunner {
 		//this.studentDao.createTable();
 		
 		//this.studentDao.insertData("Srinu","Ichapuram");
-		//this.studentDao.updateData();
-		
-		this.studentDao.deleteData();
 		
 	}
 	

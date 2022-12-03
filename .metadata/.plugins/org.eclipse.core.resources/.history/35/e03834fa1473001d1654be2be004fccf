@@ -43,10 +43,6 @@ public class StudentDao {
 		public void deleteData()
 		{
 			String query="delete from student where name='Srinu'";
-			
-            int update = this.jdbcTemplate.update(query);
-			
-			System.out.println(update);
 		}
 
 }

@@ -29,22 +29,11 @@ public class StudentDao {
 	}
 	
 	//inserting data
-		public void updateData()
+		public void updateData(String name, String city)
 		{
-			String q ="update student set city='Vizag' where name='Srinu'";
+			String q ="insert into student(name,city) values(?,?)";
 			
-			int update = this.jdbcTemplate.update(q);
-			
-			System.out.println(update);
-		}
-		
-		//Deleting Data
-		
-		public void deleteData()
-		{
-			String query="delete from student where name='Srinu'";
-			
-            int update = this.jdbcTemplate.update(query);
+			int update = this.jdbcTemplate.update(q,name,city);
 			
 			System.out.println(update);
 		}
